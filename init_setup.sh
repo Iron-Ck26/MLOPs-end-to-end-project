@@ -1,15 +1,17 @@
+# use for create an envarment in folder forperticuller project in that folder (./env) or (./MLOPs_env)
+
 echo [$(date)]: "START"
 
 
 echo [$(date)]: "creating env with python 3.8 version" 
 
 
-conda create --prefix ./env python=3.8 -y
+conda create --prefix ./MLOPs_env python=3.8 -y
 
 
 echo [$(date)]: "activating the environment" 
 
-source activate ./env
+source activate ./MLOPs_env
 
 echo [$(date)]: "installing the dev requirements" 
 
